@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07212A8F246EC48C00F8C83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07212A8E246EC48C00F8C83E /* AppDelegate.swift */; };
+		07212A91246EC48C00F8C83E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07212A90246EC48C00F8C83E /* ContentView.swift */; };
+		07212A94246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07212A92246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld */; };
+		07212A96246EC49200F8C83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07212A95246EC49200F8C83E /* Assets.xcassets */; };
+		07212A99246EC49200F8C83E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07212A98246EC49200F8C83E /* Preview Assets.xcassets */; };
+		07212A9C246EC49200F8C83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07212A9A246EC49200F8C83E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07212AA4246EC49200F8C83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07212A83246EC48C00F8C83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07212A8A246EC48C00F8C83E;
+			remoteInfo = "Escape Room Tool";
+		};
+		07212AAF246EC49200F8C83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07212A83246EC48C00F8C83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07212A8A246EC48C00F8C83E;
+			remoteInfo = "Escape Room Tool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07212A8B246EC48C00F8C83E /* Escape Room Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Escape Room Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07212A8E246EC48C00F8C83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../Escape Room Tool/AppDelegate.swift"; sourceTree = "<group>"; };
+		07212A90246EC48C00F8C83E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../Escape Room Tool/ContentView.swift"; sourceTree = "<group>"; };
+		07212A93246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Escape_Room_Tool.xcdatamodel; sourceTree = "<group>"; };
+		07212A95246EC49200F8C83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07212A98246EC49200F8C83E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07212A9B246EC49200F8C83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07212A9D246EC49200F8C83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07212A9E246EC49200F8C83E /* Escape_Room_Tool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Escape_Room_Tool.entitlements; sourceTree = "<group>"; };
+		07212AA3246EC49200F8C83E /* Escape Room ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape Room ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07212AAE246EC49200F8C83E /* Escape Room ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape Room ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07212A88246EC48C00F8C83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07212AA0246EC49200F8C83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07212AAB246EC49200F8C83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07212A82246EC48C00F8C83E = {
+			isa = PBXGroup;
+			children = (
+				07212A8D246EC48C00F8C83E /* Escape Room Tool */,
+				07212A8C246EC48C00F8C83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07212A8C246EC48C00F8C83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07212A8B246EC48C00F8C83E /* Escape Room Tool.app */,
+				07212AA3246EC49200F8C83E /* Escape Room ToolTests.xctest */,
+				07212AAE246EC49200F8C83E /* Escape Room ToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07212A8D246EC48C00F8C83E /* Escape Room Tool */ = {
+			isa = PBXGroup;
+			children = (
+				07212AC72472193600F8C83E /* Static */,
+				07212AC62472190300F8C83E /* AppStart */,
+				07212AC5247218E700F8C83E /* Views */,
+				07212AC4247218DE00F8C83E /* Models */,
+				07212AC3247218D100F8C83E /* Controllers */,
+				07212A9D246EC49200F8C83E /* Info.plist */,
+				07212A9E246EC49200F8C83E /* Escape_Room_Tool.entitlements */,
+				07212A92246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld */,
+				07212A97246EC49200F8C83E /* Preview Content */,
+			);
+			path = "Escape Room Tool";
+			sourceTree = "<group>";
+		};
+		07212A97246EC49200F8C83E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07212A98246EC49200F8C83E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07212AC3247218D100F8C83E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		07212AC4247218DE00F8C83E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		07212AC5247218E700F8C83E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07212A9A246EC49200F8C83E /* Main.storyboard */,
+				07212A90246EC48C00F8C83E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		07212AC62472190300F8C83E /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				07212A8E246EC48C00F8C83E /* AppDelegate.swift */,
+			);
+			path = AppStart;
+			sourceTree = SOURCE_ROOT;
+		};
+		07212AC72472193600F8C83E /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				07212A95246EC49200F8C83E /* Assets.xcassets */,
+			);
+			path = Static;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07212A8A246EC48C00F8C83E /* Escape Room Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07212AB7246EC49200F8C83E /* Build configuration list for PBXNativeTarget "Escape Room Tool" */;
+			buildPhases = (
+				07212A87246EC48C00F8C83E /* Sources */,
+				07212A88246EC48C00F8C83E /* Frameworks */,
+				07212A89246EC48C00F8C83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Escape Room Tool";
+			productName = "Escape Room Tool";
+			productReference = 07212A8B246EC48C00F8C83E /* Escape Room Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07212AA2246EC49200F8C83E /* Escape Room ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07212ABA246EC49200F8C83E /* Build configuration list for PBXNativeTarget "Escape Room ToolTests" */;
+			buildPhases = (
+				07212A9F246EC49200F8C83E /* Sources */,
+				07212AA0246EC49200F8C83E /* Frameworks */,
+				07212AA1246EC49200F8C83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07212AA5246EC49200F8C83E /* PBXTargetDependency */,
+			);
+			name = "Escape Room ToolTests";
+			productName = "Escape Room ToolTests";
+			productReference = 07212AA3246EC49200F8C83E /* Escape Room ToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07212AAD246EC49200F8C83E /* Escape Room ToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07212ABD246EC49200F8C83E /* Build configuration list for PBXNativeTarget "Escape Room ToolUITests" */;
+			buildPhases = (
+				07212AAA246EC49200F8C83E /* Sources */,
+				07212AAB246EC49200F8C83E /* Frameworks */,
+				07212AAC246EC49200F8C83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07212AB0246EC49200F8C83E /* PBXTargetDependency */,
+			);
+			name = "Escape Room ToolUITests";
+			productName = "Escape Room ToolUITests";
+			productReference = 07212AAE246EC49200F8C83E /* Escape Room ToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07212A83246EC48C00F8C83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "WE Develop";
+				TargetAttributes = {
+					07212A8A246EC48C00F8C83E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					07212AA2246EC49200F8C83E = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 07212A8A246EC48C00F8C83E;
+					};
+					07212AAD246EC49200F8C83E = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 07212A8A246EC48C00F8C83E;
+					};
+				};
+			};
+			buildConfigurationList = 07212A86246EC48C00F8C83E /* Build configuration list for PBXProject "Escape Room Tool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07212A82246EC48C00F8C83E;
+			productRefGroup = 07212A8C246EC48C00F8C83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07212A8A246EC48C00F8C83E /* Escape Room Tool */,
+				07212AA2246EC49200F8C83E /* Escape Room ToolTests */,
+				07212AAD246EC49200F8C83E /* Escape Room ToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07212A89246EC48C00F8C83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07212A9C246EC49200F8C83E /* Main.storyboard in Resources */,
+				07212A99246EC49200F8C83E /* Preview Assets.xcassets in Resources */,
+				07212A96246EC49200F8C83E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07212AA1246EC49200F8C83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07212AAC246EC49200F8C83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07212A87246EC48C00F8C83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07212A91246EC48C00F8C83E /* ContentView.swift in Sources */,
+				07212A8F246EC48C00F8C83E /* AppDelegate.swift in Sources */,
+				07212A94246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07212A9F246EC49200F8C83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07212AAA246EC49200F8C83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07212AA5246EC49200F8C83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07212A8A246EC48C00F8C83E /* Escape Room Tool */;
+			targetProxy = 07212AA4246EC49200F8C83E /* PBXContainerItemProxy */;
+		};
+		07212AB0246EC49200F8C83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07212A8A246EC48C00F8C83E /* Escape Room Tool */;
+			targetProxy = 07212AAF246EC49200F8C83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07212A9A246EC49200F8C83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07212A9B246EC49200F8C83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07212AB5246EC49200F8C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07212AB6246EC49200F8C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		07212AB8246EC49200F8C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Escape Room Tool/Escape_Room_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Escape Room Tool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Escape Room Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "WEDevlop.Escape-Room-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		07212AB9246EC49200F8C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Escape Room Tool/Escape_Room_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Escape Room Tool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Escape Room Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "WEDevlop.Escape-Room-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		07212ABB246EC49200F8C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Escape Room ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "WEDevlop.Escape-Room-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escape Room Tool.app/Contents/MacOS/Escape Room Tool";
+			};
+			name = Debug;
+		};
+		07212ABC246EC49200F8C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Escape Room ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "WEDevlop.Escape-Room-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escape Room Tool.app/Contents/MacOS/Escape Room Tool";
+			};
+			name = Release;
+		};
+		07212ABE246EC49200F8C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Escape Room ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WEDevlop.Escape-Room-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Escape Room Tool";
+			};
+			name = Debug;
+		};
+		07212ABF246EC49200F8C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Escape Room ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WEDevlop.Escape-Room-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Escape Room Tool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07212A86246EC48C00F8C83E /* Build configuration list for PBXProject "Escape Room Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07212AB5246EC49200F8C83E /* Debug */,
+				07212AB6246EC49200F8C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07212AB7246EC49200F8C83E /* Build configuration list for PBXNativeTarget "Escape Room Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07212AB8246EC49200F8C83E /* Debug */,
+				07212AB9246EC49200F8C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07212ABA246EC49200F8C83E /* Build configuration list for PBXNativeTarget "Escape Room ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07212ABB246EC49200F8C83E /* Debug */,
+				07212ABC246EC49200F8C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07212ABD246EC49200F8C83E /* Build configuration list for PBXNativeTarget "Escape Room ToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07212ABE246EC49200F8C83E /* Debug */,
+				07212ABF246EC49200F8C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07212A92246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07212A93246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodel */,
+			);
+			currentVersion = 07212A93246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodel */;
+			path = Escape_Room_Tool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07212A83246EC48C00F8C83E /* Project object */;
+}
