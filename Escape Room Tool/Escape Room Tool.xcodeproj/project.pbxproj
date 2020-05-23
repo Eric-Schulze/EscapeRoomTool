@@ -7,12 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07212A8F246EC48C00F8C83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07212A8E246EC48C00F8C83E /* AppDelegate.swift */; };
-		07212A91246EC48C00F8C83E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07212A90246EC48C00F8C83E /* ContentView.swift */; };
-		07212A94246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07212A92246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld */; };
-		07212A96246EC49200F8C83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07212A95246EC49200F8C83E /* Assets.xcassets */; };
-		07212A99246EC49200F8C83E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07212A98246EC49200F8C83E /* Preview Assets.xcassets */; };
-		07212A9C246EC49200F8C83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07212A9A246EC49200F8C83E /* Main.storyboard */; };
+		070C066424738DDB00CB5168 /* SettingsLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C066324738DDB00CB5168 /* SettingsLogic.swift */; };
+		070C06692473A20800CB5168 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C06682473A20800CB5168 /* HomeView.swift */; };
+		070C066B2473A2FA00CB5168 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C066A2473A2FA00CB5168 /* SetupView.swift */; };
+		070C066F24741BED00CB5168 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C066E24741BED00CB5168 /* Enums.swift */; };
+		070C06742474204000CB5168 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C06732474204000CB5168 /* MenuView.swift */; };
+		070C0676247424DC00CB5168 /* EscapeRoomWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C0675247424DC00CB5168 /* EscapeRoomWindow.swift */; };
+		070C0678247447CF00CB5168 /* InventoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C0677247447CF00CB5168 /* InventoryItemView.swift */; };
+		070C067A247448C800CB5168 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C0679247448C700CB5168 /* LogsView.swift */; };
+		070C067C24744A5F00CB5168 /* DurationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C067B24744A5E00CB5168 /* DurationSettingsView.swift */; };
+		070C067E24744A6A00CB5168 /* InventorySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C067D24744A6A00CB5168 /* InventorySettingsView.swift */; };
+		070C068024744A7C00CB5168 /* LogSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C067F24744A7C00CB5168 /* LogSettingsView.swift */; };
+		07995E4724721FE6003C0013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07995E3624721FE6003C0013 /* Assets.xcassets */; };
+		07995E4824721FE6003C0013 /* Escape_Room_Tool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07995E3824721FE6003C0013 /* Escape_Room_Tool.xcdatamodeld */; };
+		07995E4924721FE6003C0013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07995E3B24721FE6003C0013 /* AppDelegate.swift */; };
+		07995E4A24721FE6003C0013 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07995E3E24721FE6003C0013 /* Preview Assets.xcassets */; };
+		07995E4C24721FE6003C0013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07995E4424721FE6003C0013 /* Main.storyboard */; };
+		07995E4D24721FE6003C0013 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07995E4624721FE6003C0013 /* GameView.swift */; };
+		07995E5024722DC6003C0013 /* CountdownTimerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07995E4F24722DC6003C0013 /* CountdownTimerLogic.swift */; };
+		07B30FCD2479A9A300662242 /* InventorySettingsLIstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B30FCC2479A9A300662242 /* InventorySettingsLIstView.swift */; };
+		07B30FCF2479A9BB00662242 /* InventorySettingsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B30FCE2479A9BB00662242 /* InventorySettingsSectionView.swift */; };
+		07B623602472EF4300277D00 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6235F2472EF4300277D00 /* CountdownView.swift */; };
+		07B623622472FFB400277D00 /* RadarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B623612472FFB400277D00 /* RadarUIView.swift */; };
+		07B62364247300F200277D00 /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B62363247300F200277D00 /* RadarView.swift */; };
+		07B623672473124900277D00 /* radar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 07B623662473124900277D00 /* radar.mp4 */; };
+		07C1A18424744F16002A883C /* InventoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C1A18324744F16002A883C /* InventoryList.swift */; };
+		07C1A1862474BDB9002A883C /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C1A1852474BDB9002A883C /* ViewModifiers.swift */; };
+		07C1A1882474BDFE002A883C /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C1A1872474BDFE002A883C /* ViewExtensions.swift */; };
+		07C1A18A2474C178002A883C /* SettingsObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C1A1892474C178002A883C /* SettingsObjects.swift */; };
+		07C1A18C2474DA3D002A883C /* LogSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C1A18B2474DA3D002A883C /* LogSettingsListView.swift */; };
+		07C1A18E2474DDD4002A883C /* LogSettingsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C1A18D2474DDD4002A883C /* LogSettingsSectionView.swift */; };
+		07C1A190247562BC002A883C /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C1A18F247562BC002A883C /* MultilineTextField.swift */; };
+		07DB86A82475EC3400EF9E6F /* LogTextModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB86A72475EC3400EF9E6F /* LogTextModalView.swift */; };
+		07DB86AB2475EFB700EF9E6F /* LogButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB86AA2475EFB700EF9E6F /* LogButtonView.swift */; };
+		07DB86AD2476096200EF9E6F /* ExitModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB86AC2476096200EF9E6F /* ExitModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,17 +61,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070C066324738DDB00CB5168 /* SettingsLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLogic.swift; sourceTree = "<group>"; };
+		070C06682473A20800CB5168 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		070C066A2473A2FA00CB5168 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		070C066E24741BED00CB5168 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		070C06732474204000CB5168 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		070C0675247424DC00CB5168 /* EscapeRoomWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeRoomWindow.swift; sourceTree = "<group>"; };
+		070C0677247447CF00CB5168 /* InventoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemView.swift; sourceTree = "<group>"; };
+		070C0679247448C700CB5168 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		070C067B24744A5E00CB5168 /* DurationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationSettingsView.swift; sourceTree = "<group>"; };
+		070C067D24744A6A00CB5168 /* InventorySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySettingsView.swift; sourceTree = "<group>"; };
+		070C067F24744A7C00CB5168 /* LogSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSettingsView.swift; sourceTree = "<group>"; };
 		07212A8B246EC48C00F8C83E /* Escape Room Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Escape Room Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07212A8E246EC48C00F8C83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../Escape Room Tool/AppDelegate.swift"; sourceTree = "<group>"; };
-		07212A90246EC48C00F8C83E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../Escape Room Tool/ContentView.swift"; sourceTree = "<group>"; };
-		07212A93246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Escape_Room_Tool.xcdatamodel; sourceTree = "<group>"; };
-		07212A95246EC49200F8C83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07212A98246EC49200F8C83E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		07212A9B246EC49200F8C83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07212A9D246EC49200F8C83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07212A9E246EC49200F8C83E /* Escape_Room_Tool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Escape_Room_Tool.entitlements; sourceTree = "<group>"; };
 		07212AA3246EC49200F8C83E /* Escape Room ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape Room ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07212AAE246EC49200F8C83E /* Escape Room ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape Room ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07995E3624721FE6003C0013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07995E3924721FE6003C0013 /* Escape_Room_Tool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Escape_Room_Tool.xcdatamodel; sourceTree = "<group>"; };
+		07995E3B24721FE6003C0013 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07995E3E24721FE6003C0013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07995E4024721FE6003C0013 /* Escape_Room_Tool.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = Escape_Room_Tool.entitlements; path = src/SupportingFiles/Escape_Room_Tool.entitlements; sourceTree = SOURCE_ROOT; };
+		07995E4124721FE6003C0013 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = src/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		07995E4524721FE6003C0013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07995E4624721FE6003C0013 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameView.swift; path = src/Views/GameView.swift; sourceTree = SOURCE_ROOT; };
+		07995E4F24722DC6003C0013 /* CountdownTimerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerLogic.swift; sourceTree = "<group>"; };
+		07B30FCC2479A9A300662242 /* InventorySettingsLIstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySettingsLIstView.swift; sourceTree = "<group>"; };
+		07B30FCE2479A9BB00662242 /* InventorySettingsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySettingsSectionView.swift; sourceTree = "<group>"; };
+		07B6235F2472EF4300277D00 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		07B623612472FFB400277D00 /* RadarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarUIView.swift; sourceTree = "<group>"; };
+		07B62363247300F200277D00 /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		07B623662473124900277D00 /* radar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = radar.mp4; sourceTree = "<group>"; };
+		07C1A18324744F16002A883C /* InventoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryList.swift; sourceTree = "<group>"; };
+		07C1A1852474BDB9002A883C /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		07C1A1872474BDFE002A883C /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		07C1A1892474C178002A883C /* SettingsObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsObjects.swift; sourceTree = "<group>"; };
+		07C1A18B2474DA3D002A883C /* LogSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSettingsListView.swift; sourceTree = "<group>"; };
+		07C1A18D2474DDD4002A883C /* LogSettingsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSettingsSectionView.swift; sourceTree = "<group>"; };
+		07C1A18F247562BC002A883C /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		07DB86A72475EC3400EF9E6F /* LogTextModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTextModalView.swift; sourceTree = "<group>"; };
+		07DB86AA2475EFB700EF9E6F /* LogButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogButtonView.swift; sourceTree = "<group>"; };
+		07DB86AC2476096200EF9E6F /* ExitModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +127,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070C06652473922700CB5168 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				07995E4624721FE6003C0013 /* GameView.swift */,
+				07B6235F2472EF4300277D00 /* CountdownView.swift */,
+				07B623612472FFB400277D00 /* RadarUIView.swift */,
+				07B62363247300F200277D00 /* RadarView.swift */,
+				070C0677247447CF00CB5168 /* InventoryItemView.swift */,
+				07C1A18324744F16002A883C /* InventoryList.swift */,
+				07DB86AA2475EFB700EF9E6F /* LogButtonView.swift */,
+				07DB86A72475EC3400EF9E6F /* LogTextModalView.swift */,
+				070C0679247448C700CB5168 /* LogsView.swift */,
+				07DB86AC2476096200EF9E6F /* ExitModalView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		070C06662473A0F600CB5168 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				070C06682473A20800CB5168 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		070C06672473A0FE00CB5168 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				070C066A2473A2FA00CB5168 /* SetupView.swift */,
+				070C067B24744A5E00CB5168 /* DurationSettingsView.swift */,
+				070C067D24744A6A00CB5168 /* InventorySettingsView.swift */,
+				07B30FCC2479A9A300662242 /* InventorySettingsLIstView.swift */,
+				07B30FCE2479A9BB00662242 /* InventorySettingsSectionView.swift */,
+				070C067F24744A7C00CB5168 /* LogSettingsView.swift */,
+				07C1A18B2474DA3D002A883C /* LogSettingsListView.swift */,
+				07C1A18D2474DDD4002A883C /* LogSettingsSectionView.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		070C06722474202400CB5168 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				070C06732474204000CB5168 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		07212A82246EC48C00F8C83E = {
 			isa = PBXGroup;
 			children = (
-				07212A8D246EC48C00F8C83E /* Escape Room Tool */,
+				07995E3424721FE6003C0013 /* src */,
 				07212A8C246EC48C00F8C83E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,68 +193,97 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07212A8D246EC48C00F8C83E /* Escape Room Tool */ = {
+		07995E3424721FE6003C0013 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				07212AC72472193600F8C83E /* Static */,
-				07212AC62472190300F8C83E /* AppStart */,
-				07212AC5247218E700F8C83E /* Views */,
-				07212AC4247218DE00F8C83E /* Models */,
-				07212AC3247218D100F8C83E /* Controllers */,
-				07212A9D246EC49200F8C83E /* Info.plist */,
-				07212A9E246EC49200F8C83E /* Escape_Room_Tool.entitlements */,
-				07212A92246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld */,
-				07212A97246EC49200F8C83E /* Preview Content */,
+				07995E3A24721FE6003C0013 /* AppStart */,
+				07995E4E24722BF1003C0013 /* Logic */,
+				07995E3724721FE6003C0013 /* Objects */,
+				07995E4324721FE6003C0013 /* Views */,
+				07995E3C24721FE6003C0013 /* Preview */,
+				07995E3524721FE6003C0013 /* Resources */,
+				07995E3F24721FE6003C0013 /* SupportingFiles */,
 			);
-			path = "Escape Room Tool";
+			path = src;
 			sourceTree = "<group>";
 		};
-		07212A97246EC49200F8C83E /* Preview Content */ = {
+		07995E3524721FE6003C0013 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				07212A98246EC49200F8C83E /* Preview Assets.xcassets */,
+				07B623662473124900277D00 /* radar.mp4 */,
+				07995E3624721FE6003C0013 /* Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		07212AC3247218D100F8C83E /* Controllers */ = {
+		07995E3724721FE6003C0013 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				07995E3824721FE6003C0013 /* Escape_Room_Tool.xcdatamodeld */,
+				070C066E24741BED00CB5168 /* Enums.swift */,
+				070C0675247424DC00CB5168 /* EscapeRoomWindow.swift */,
+				07C1A1852474BDB9002A883C /* ViewModifiers.swift */,
+				07C1A1872474BDFE002A883C /* ViewExtensions.swift */,
+				07C1A1892474C178002A883C /* SettingsObjects.swift */,
+				07C1A18F247562BC002A883C /* MultilineTextField.swift */,
 			);
-			path = Controllers;
-			sourceTree = SOURCE_ROOT;
+			path = Objects;
+			sourceTree = "<group>";
 		};
-		07212AC4247218DE00F8C83E /* Models */ = {
+		07995E3A24721FE6003C0013 /* AppStart */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Models;
-			sourceTree = SOURCE_ROOT;
-		};
-		07212AC5247218E700F8C83E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				07212A9A246EC49200F8C83E /* Main.storyboard */,
-				07212A90246EC48C00F8C83E /* ContentView.swift */,
-			);
-			path = Views;
-			sourceTree = SOURCE_ROOT;
-		};
-		07212AC62472190300F8C83E /* AppStart */ = {
-			isa = PBXGroup;
-			children = (
-				07212A8E246EC48C00F8C83E /* AppDelegate.swift */,
+				07995E3B24721FE6003C0013 /* AppDelegate.swift */,
 			);
 			path = AppStart;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
-		07212AC72472193600F8C83E /* Static */ = {
+		07995E3C24721FE6003C0013 /* Preview */ = {
 			isa = PBXGroup;
 			children = (
-				07212A95246EC49200F8C83E /* Assets.xcassets */,
+				07995E3D24721FE6003C0013 /* Preview Content */,
 			);
-			path = Static;
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		07995E3D24721FE6003C0013 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07995E3E24721FE6003C0013 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "src/Preview/Preview Content";
 			sourceTree = SOURCE_ROOT;
+		};
+		07995E3F24721FE6003C0013 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				07995E4024721FE6003C0013 /* Escape_Room_Tool.entitlements */,
+				07995E4124721FE6003C0013 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		07995E4324721FE6003C0013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				070C06662473A0F600CB5168 /* Home */,
+				070C06722474202400CB5168 /* Menu */,
+				070C06652473922700CB5168 /* Game */,
+				070C06672473A0FE00CB5168 /* Setup */,
+				07995E4424721FE6003C0013 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07995E4E24722BF1003C0013 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				07995E4F24722DC6003C0013 /* CountdownTimerLogic.swift */,
+				070C066324738DDB00CB5168 /* SettingsLogic.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -215,7 +348,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "WE Develop";
 				TargetAttributes = {
 					07212A8A246EC48C00F8C83E = {
@@ -256,9 +389,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07212A9C246EC49200F8C83E /* Main.storyboard in Resources */,
-				07212A99246EC49200F8C83E /* Preview Assets.xcassets in Resources */,
-				07212A96246EC49200F8C83E /* Assets.xcassets in Resources */,
+				07995E4C24721FE6003C0013 /* Main.storyboard in Resources */,
+				07995E4A24721FE6003C0013 /* Preview Assets.xcassets in Resources */,
+				07B623672473124900277D00 /* radar.mp4 in Resources */,
+				07995E4724721FE6003C0013 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +417,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07212A91246EC48C00F8C83E /* ContentView.swift in Sources */,
-				07212A8F246EC48C00F8C83E /* AppDelegate.swift in Sources */,
-				07212A94246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld in Sources */,
+				07DB86A82475EC3400EF9E6F /* LogTextModalView.swift in Sources */,
+				07DB86AB2475EFB700EF9E6F /* LogButtonView.swift in Sources */,
+				070C066424738DDB00CB5168 /* SettingsLogic.swift in Sources */,
+				07C1A1882474BDFE002A883C /* ViewExtensions.swift in Sources */,
+				07B623602472EF4300277D00 /* CountdownView.swift in Sources */,
+				070C0676247424DC00CB5168 /* EscapeRoomWindow.swift in Sources */,
+				07C1A18424744F16002A883C /* InventoryList.swift in Sources */,
+				07C1A190247562BC002A883C /* MultilineTextField.swift in Sources */,
+				07995E4D24721FE6003C0013 /* GameView.swift in Sources */,
+				070C06692473A20800CB5168 /* HomeView.swift in Sources */,
+				070C0678247447CF00CB5168 /* InventoryItemView.swift in Sources */,
+				070C066B2473A2FA00CB5168 /* SetupView.swift in Sources */,
+				07C1A18C2474DA3D002A883C /* LogSettingsListView.swift in Sources */,
+				07B623622472FFB400277D00 /* RadarUIView.swift in Sources */,
+				07C1A18E2474DDD4002A883C /* LogSettingsSectionView.swift in Sources */,
+				070C067C24744A5F00CB5168 /* DurationSettingsView.swift in Sources */,
+				070C067E24744A6A00CB5168 /* InventorySettingsView.swift in Sources */,
+				07995E4924721FE6003C0013 /* AppDelegate.swift in Sources */,
+				070C06742474204000CB5168 /* MenuView.swift in Sources */,
+				07995E5024722DC6003C0013 /* CountdownTimerLogic.swift in Sources */,
+				07DB86AD2476096200EF9E6F /* ExitModalView.swift in Sources */,
+				07B30FCF2479A9BB00662242 /* InventorySettingsSectionView.swift in Sources */,
+				07995E4824721FE6003C0013 /* Escape_Room_Tool.xcdatamodeld in Sources */,
+				07C1A1862474BDB9002A883C /* ViewModifiers.swift in Sources */,
+				07B62364247300F200277D00 /* RadarView.swift in Sources */,
+				070C067A247448C800CB5168 /* LogsView.swift in Sources */,
+				07B30FCD2479A9A300662242 /* InventorySettingsLIstView.swift in Sources */,
+				070C066F24741BED00CB5168 /* Enums.swift in Sources */,
+				07C1A18A2474C178002A883C /* SettingsObjects.swift in Sources */,
+				070C068024744A7C00CB5168 /* LogSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,10 +480,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		07212A9A246EC49200F8C83E /* Main.storyboard */ = {
+		07995E4424721FE6003C0013 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07212A9B246EC49200F8C83E /* Base */,
+				07995E4524721FE6003C0013 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -380,6 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = src/SupportingFiles/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -434,6 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = src/SupportingFiles/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -447,12 +610,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Escape Room Tool/Escape_Room_Tool.entitlements";
+				CODE_SIGN_ENTITLEMENTS = src/SupportingFiles/Escape_Room_Tool.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Escape Room Tool/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Escape Room Tool/Info.plist";
+				INFOPLIST_FILE = src/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -468,12 +632,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Escape Room Tool/Escape_Room_Tool.entitlements";
+				CODE_SIGN_ENTITLEMENTS = src/SupportingFiles/Escape_Room_Tool.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Escape Room Tool/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Escape Room Tool/Info.plist";
+				INFOPLIST_FILE = src/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -607,12 +772,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		07212A92246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodeld */ = {
+		07995E3824721FE6003C0013 /* Escape_Room_Tool.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				07212A93246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodel */,
+				07995E3924721FE6003C0013 /* Escape_Room_Tool.xcdatamodel */,
 			);
-			currentVersion = 07212A93246EC48C00F8C83E /* Escape_Room_Tool.xcdatamodel */;
+			currentVersion = 07995E3924721FE6003C0013 /* Escape_Room_Tool.xcdatamodel */;
 			path = Escape_Room_Tool.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
